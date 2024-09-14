@@ -1,7 +1,7 @@
 apiVersion: build.openshift.io/v1
 kind: BuildConfig
 metadata:
-  name: keycloa-oracle-build
+  name: keycloak-oracle-build
 spec:
   source:
     type: Dockerfile
@@ -21,4 +21,4 @@ spec:
   output:
     to:
       kind: ImageStreamTag
-      name: 'keycloa-oracle:latest'
+      name: 'keycloak-oracle:latest'
